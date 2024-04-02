@@ -9,6 +9,8 @@ body {
 
 /* Stijl navigatiebalk */
 .nav {
+  display: flex;
+  justify-content: center;
   background-color: #527af2;
   padding: 1rem 0;
 }
@@ -18,6 +20,7 @@ body {
   margin: 0 1rem;
   text-decoration: none;
   font-weight: bold;
+  font-size: medium;
 }
 
 .nav-link:hover,
@@ -25,6 +28,10 @@ body {
   color: #c2d7f2;
 }
 h1 {
+  color: #527af2;
+}
+
+h2 {
   color: #94b3f2;
 }
 
