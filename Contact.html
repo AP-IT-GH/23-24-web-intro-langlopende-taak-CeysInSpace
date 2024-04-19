@@ -14,13 +14,13 @@
     <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
       <div class="container">
-        <article class="col">
+        <article class="col-12 col-sm-6 col-md-4">
           <a href="index.html"></a>
           <img
             class="img-fluid"
             src="Image/logo.png"
             alt="logo"
-            style="max-width: 100px; height: auto; margin-left: -200px"
+            style="max-width: 150px; height: auto; margin-left: -200px"
           />
         </article>
 
@@ -51,10 +51,68 @@
       </div>
     </nav>
     <h1 style="text-align: center">Contact</h1>
-    <h2 style="text-align: center">tekst</h2>
+    <h2 style="text-align: center">Contacteer ons!</h2>
+    <div class="container">
+      <div class="row"> 
+        <main class="col-md-9 pe-3">
+          <section id="contact" class="row">
+            <div class="col-12 mb-3">
+              <h2 class="text-uppercase fs-4 fw-bolder pt-3"></h2>
+              <p>Vul het registratieformulier in.<br>Velden met een * zijn verplicht.</p>
+            </div>
+            <hr>
+            <form action="#" method="post">
+        <!--fieldset algemene gegevens-->
+        <fieldset class="row g-3 mb-3">
+          <legend class="text-uppercase fs-6 fw-bolder pt-3">Algemene gegevens</legend>
+          <div class="col-md-6">
+            <label for="fname">Voornaam <span>*</span></label><br>
+            <input type="text"  class="form-control" id="fname" name="fname" required>
+          </div>
+          <div class="col-md-6">
+          <label for="lname">Achternaam <span>*</label>
+          <input type="text" id="lname" name="lname" class="form-control" required></div>
+          
+          <div class="col-6">
+          <label for="tel">mobiel telefoonnummer</label>
+          <input type="tel"id="mobiel" class="form-control" placeholder="0412 34 56 78"></div>
+          <div class="col-6">
+          <label for="birthDate" class="form-label">Geboortedatum </label>
+          <input type="date" name="birthday" id="birthday"></div>
+        </fieldset>   
+        
+        <!--fieldset met adresgegevens-->
+        <fieldset class="row g-3 mb-3 mt-3">
+          <legend class="text-uppercase fs-4 fw-bolder pt-3">Adresgegevens</legend>
+          <div class="col-12">
+          <label for="adress" class="form-label">Adres <span>*</label><br>
+            <input type="text" class="form-control" id="address" required>
+        </div><br>
+        <div class="col-6 col-md-3">
+          <label for="postalcode" class="form-label">Postcode <span>*</span></label><br>
+          <input type="text" class="form-control" id="postalcode" required>
+        </div><br>
+        <div class="col-md-4">
+          <label for="countryCode" class="form-label">Kies een land <span>*</span></label><br>
+          <select id="countryCode" class="form-select">
+          <option value="BE" selected>België</option>
+          <option value="DE">Duitsland</option>
+          <option value="FR">Frankrijk</option>
+          <option value="LU">Luxemburg</option>
+          <option value="NL">Nederland</option>
+          <option value="UK">Verenigd Koninkrijk</option>
+        </select>
+        </div><br>
+       </fieldset>
+          <button type="submit" class="btn btn-primary">Verzenden</button>
+         
+
+
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <footer></footer>
   </body>
+
 </html>
