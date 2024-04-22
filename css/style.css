@@ -33,6 +33,9 @@ h1 {
 
 h2 {
   color: #94b3f2;
+}
+p {
+  color: #527af2;
   font-size: large;
 }
 
@@ -56,7 +59,6 @@ h2 {
   background-color: #94b3f2;
 }
 footer {
-  background-color: #527af2;
   color: #ffffff;
   padding: 1rem 0;
   text-align: center;
