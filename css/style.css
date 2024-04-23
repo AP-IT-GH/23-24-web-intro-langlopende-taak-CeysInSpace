@@ -8,19 +8,26 @@ body {
 }
 
 /* Stijl navigatiebalk */
+.navbar {
+  padding: 0.25rem 1rem;
+}
 .nav {
   display: flex;
   justify-content: center;
   background-color: #527af2;
-  padding: 1rem 0;
+  padding: 0.25rem 0;
+}
+
+.nav-item {
+  padding: 0.25rem 0;
 }
 
 .nav-link {
   color: #ffffff;
-  margin: 0 1rem;
+  margin: 0 0.5rem;
   text-decoration: none;
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 
 .nav-link:hover,
@@ -32,11 +39,15 @@ h1 {
 }
 
 h2 {
-  color: #94b3f2;
+  color: #527af2;
+  text-align: center;
 }
 p {
   color: #527af2;
-  font-size: large;
+  font-size: x-large;
+  max-width: 600px;
+  margin: auto;
+  text-align: justify;
 }
 
 .lead {
@@ -76,7 +87,7 @@ footer {
   height: 100vh;
 }
 
-img {
-  max-width: 150px;
+img.img-fluid {
+  max-width: 1050px;
   height: auto;
 }
