@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deelopdracht 3</title>
+    <title>Topic</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -38,7 +38,6 @@
     <script src="js/mapScript.js" defer></script>
   </head>
   <body>
-    <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -63,9 +62,11 @@
             <li class="nav-item">
               <a class="nav-link" href="Diensten.html">Diensten</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link active" href="Contact.html">Contact</a>
+              <a class="nav-link active" href="firewall.html">Firewall</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
@@ -73,77 +74,47 @@
     </nav>
 
     <section class="container mt-5">
-      <h1 class="text-center mb-4">Contacteer Ons</h1>
+      <h1 style="text-align: center">Firewall Diensten</h1>
 
-      <section class="row">
-        <section class="col-md-6">
-          <h2>Contact Admin</h2>
-          <form
-            action="mailto:admin@example.com"
-            method="get"
-            enctype="text/plain"
-          >
-            <section class="form-group">
-              <label for="adminEmail">Jouw E-mail</label>
-              <input
-                type="email"
-                id="adminEmail"
-                name="adminEmail"
-                class="form-control"
-                required
-              />
-            </section>
-            <section class="form-group">
-              <label for="adminMessage">Bericht</label>
-              <textarea
-                id="adminMessage"
-                name="adminMessage"
-                class="form-control"
-                required
-              ></textarea>
-            </section>
-            <button type="submit" class="btn btn-primary">Verstuur</button>
-          </form>
-        </section>
+      <h2>Bescherm uw netwerk</h2>
 
-        <section class="col-md-6">
-          <h2>Contact Webdesigner</h2>
-          <form
-            action="mailto:webdesigner@example.com"
-            method="get"
-            enctype="text/plain"
-          >
-            <section class="form-group">
-              <label for="designerEmail">Jouw E-mail</label>
-              <input
-                type="email"
-                id="designerEmail"
-                name="designerEmail"
-                class="form-control"
-                required
-              />
-            </section>
-            <section class="form-group">
-              <label for="designerMessage">Bericht</label>
-              <textarea
-                id="designerMessage"
-                name="designerMessage"
-                class="form-control"
-                required
-              ></textarea>
-            </section>
-            <button type="submit" class="btn btn-primary">Verstuur</button>
-          </form>
-        </section>
-      </section>
+      <table class="table">
+        <caption>
+          Voordelen van het gebruik van een Firewall
+        </caption>
+        <thead>
+          <tr>
+            <th>Voordelen</th>
+            <th>Beschrijving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Bescherming</td>
+            <td>Bescherm uw netwerk tegen ongewenste indringers.</td>
+          </tr>
+          <tr>
+            <td>Monitoring</td>
+            <td>Houdt het inkomende en uitgaande verkeer in de gaten.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-    <div class="container">
-      <div class="row">
+    <figure>
+      <img src="Image/firewall.jpg" alt="Firewall" class="img-fluid" />
+      <figcaption>Illustratie van een firewall in actie.</figcaption>
+    </figure>
+    <div class="container" class="row" >
+      
         <main class="col-md-9 pe-3">
           <section id="map" class="row">
             <!-- Leaflet map -->
             <div id="apMap" class="col-12 mb-3"></div>
+          </div>
           </section>
+    <footer class="container-fluid text-center h6 small p-4">
+      &copy;2024 langlopende taak
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>

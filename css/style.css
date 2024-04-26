@@ -1,20 +1,19 @@
 body {
-  font-family: "Segoe UI", Tahoma, Verdana, Geneva, Tahoma, sans-serif, Verdana,
-    sans-serif;
+  font-family: "Goole Sans", Arial, sans-serif;
   color: #527af2; /* tekst kleur */
-  background-color: #c2d7f2; /*achtergrond kleur*/
+  background-color: #ffffff; /*achtergrond kleur*/
   margin: 0;
   padding: 0;
+  font-size: 16px;
 }
 
 /* Stijl navigatiebalk */
 .navbar {
-  padding: 0.25rem 1rem;
+  background-color: #ffffff !important;
 }
 .nav {
   display: flex;
   justify-content: center;
-  background-color: #527af2;
   padding: 0.25rem 0;
 }
 
@@ -23,31 +22,41 @@ body {
 }
 
 .nav-link {
-  color: #ffffff;
-  margin: 0 0.5rem;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: large;
+  color: #5f6368;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .nav-link:hover,
 .nav-link.active {
   color: #c2d7f2;
 }
+
+.navbar-brand {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+.navbar-brand img {
+  height: 100%;
+  width: auto;
+}
 h1 {
-  color: #527af2;
+  font-family: "Google Sans", Arial, sans-serif;
 }
 
 h2 {
-  color: #527af2;
+  font-family: "Google Sans", Arial, sans-serif;
+
   text-align: center;
 }
 p {
   color: #527af2;
-  font-size: x-large;
+  font-size: 20px;
   max-width: 600px;
   margin: auto;
   text-align: justify;
+  font-family: "Google Sans", Arial, sans-serif;
 }
 
 .lead {
@@ -70,12 +79,13 @@ p {
   background-color: #94b3f2;
 }
 footer {
-  color: #ffffff;
-  padding: 1rem 0;
+  background-color: #94b3f2;
+  color: #527af2;
+  padding: 1rem;
   text-align: center;
 }
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: auto;
   padding: 2rem;
 }
@@ -84,10 +94,62 @@ footer {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  height: 100px;
 }
 
-img.img-fluid {
-  max-width: 1050px;
+.img-fluid {
+  border-radius: 20px;
+  max-width: 50%;
   height: auto;
+  display: block;
+  margin: 20px auto;
+}
+.wide-image {
+  width: 90% !important;
+  height: auto !important;
+  display: block !important;
+  margin: 20px auto !important;
+}
+
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+caption {
+  padding: 10px;
+  caption-side: top;
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+figure {
+  text-align: center;
+  margin-top: 20px;
+}
+figcaption {
+  color: #94b3f2;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+  }
+
+  .nav-link {
+    padding: 10px 15px;
+  }
+
+  .img-fluid {
+    max-width: 100%;
+  }
+
+  .container,
+  .cover-container {
+    padding: 15px;
+  }
 }

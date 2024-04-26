@@ -9,34 +9,37 @@
       rel="stylesheet"
     />
     <link href="css/style.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!--Nav bar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <article class="col-12 col-sm-6 col-md-4">
-          <a href="index.html"></a>
-        </article>
-
+        <a class="navbar-brand" href="index.html">
+          <img src="Image/logo_transparent.png" alt="logo" />
+        </a>
         <button
           class="navbar-toggler"
           type="button"
           data-toggle="collapse"
-          data-target="#Dropdown"
-          aria-controls="Dropdown"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="Dropdown">
+        <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" href="index.html">Home </a>
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Diensten.html">Diensten</a>
             </li>
+
             <li class="nav-item">
               <a class="nav-link" href="Contact.html">Contact</a>
             </li>
@@ -44,27 +47,32 @@
         </div>
       </div>
     </nav>
-    <h1 style="text-align: center">Welkom op mijn website</h1>
-    <p style="text-align: center">
-      Cybersecurity is een essentieel aspect van moderne technologie en
-      internetgebruik, gericht op de bescherming van computersystemen, netwerken
-      en data tegen digitale aanvallen, schade of ongeautoriseerde toegang. Het
-      omvat een breed paket aan praktijken, technologieën en processen die zijn
-      ontworpen om de integriteit, vertrouwelijkheid en beschikbaarheid van
-      informatie en IT-systemen te waarborgen.
-    </p>
-    <article class="col-12 col-sm-6 col-md-4">
-      <a href="index.html"></a>
-      <img class="img-fluid" src="Image/cybersecurity.jpg" alt="logo" />
-    </article>
-
-    />
+    <div class="container text-center">
+      <h1>Welkom op mijn website</h1>
+      <p>
+        Zelf studeer ik Systeem & Netwerkbeheer en vind ik het onderwek
+        Cybersecurity een belangrijk onderdeel in de richting. Cyber-security is
+        een essentieel aspect van moderne technologie en internetgebruik,
+        gericht op de bescherming van computer-systemen, netwerken en data tegen
+        digitale aanvallen, schade of ongeautoriseerde toegang. Het omvat een
+        breed paket aan praktijken, technologieën en processen die zijn
+        ontworpen om de integriteit, vertrouwelijkheid en beschikbaarheid van
+        informatie en IT-systemen te waarborgen.
+      </p>
+      <img
+        class="img-fluid"
+        src="Image/cybersecurity.jpg"
+        alt="Cybersecurity"
+      />
+      <img class="img-fluid" src="Image/foto-cesar.jpg" alt="foto van César" />
+      <figcaption>foto César</figcaption>
+    </div>
+    <footer class="container-fluid text-center h6 small p-4">
+      &copy;2024 langlopende taak
+    </footer>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <footer class="container-fluid text-center h6 small p-4">
-      &copy;2024 langlopende taak
-    </footer>
   </body>
 </html>
