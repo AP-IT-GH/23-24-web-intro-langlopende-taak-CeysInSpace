@@ -105,10 +105,10 @@ footer {
   margin: 20px auto;
 }
 .wide-image {
-  width: 90% !important;
-  height: auto !important;
-  display: block !important;
-  margin: 20px auto !important;
+  width: 90%;
+  height: auto;
+  display: block;
+  margin: 20px auto;
 }
 
 input[type="email"],
