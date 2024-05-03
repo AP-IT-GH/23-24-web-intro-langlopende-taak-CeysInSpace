@@ -135,6 +135,15 @@ figcaption {
   color: #94b3f2;
 }
 
+.aside {
+  flex: 1;
+  margin-left: 20px;
+  padding: 10px;
+  border-left: 1px solid #ccc;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
 @media (max-width: 768px) {
   .navbar-nav {
     flex-direction: column;
