@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Deelopdracht 3</title>
+    <title>Compliance Assistance</title>
     <link
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       rel="stylesheet"
@@ -38,7 +38,6 @@
     <script src="js/mapScript.js" defer></script>
   </head>
   <body>
-    <!--Nav bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
         <a class="navbar-brand" href="index.html">
@@ -63,49 +62,56 @@
             <li class="nav-item">
               <a class="nav-link" href="Diensten.html">Diensten</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link active" href="Contact.html">Contact</a>
+              <a class="nav-link" href="Contact.html">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-  
-      <section class="container mt-5">
-        <h1 class="text-center mb-4">Contacteer Ons</h1>
-    
-        <form action="mailto:example@example.com" method="post" enctype="text/plain">
-          <div class="form-group">
-            <label for="contactChoice">Wie wil je contacteren?</label>
-            <select class="form-control" id="contactChoice" name="contactChoice">
-              <option value="Admin">Admin</option>
-              <option value="Webdesigner">Webdesigner</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="yourEmail">Jouw E-mail</label>
-            <input type="email" id="yourEmail" name="yourEmail" class="form-control" required />
-          </div>
-          <div class="form-group">
-            <label for="yourMessage">Bericht</label>
-            <textarea id="yourMessage" name="yourMessage" class="form-control" required></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary">Verstuur</button>
-        </form>
-      </section>
-        </section>
-      </section>
+    <section class="container mt-5">
+      <h1 style="text-align: center">Compliance Assistance</h1>
+
+      <h2>Help uw organisatie aan wet- en regelgeving te voldoen</h2>
+
+      <table class="table">
+        <caption>
+          Voordelen van Compliance Assistance
+        </caption>
+        <thead>
+          <tr>
+            <th>Voordelen</th>
+            <th>Beschrijving</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Risicoreductie</td>
+            <td>Minimaliseert juridische risico's door te voldoen aan relevante wetten en regels.</td>
+          </tr>
+          <tr>
+            <td>Procesverbetering</td>
+            <td>Optimaliseert processen om efficiëntie en naleving te verbeteren.</td>
+          </tr>
+        </tbody>
+      </table>
     </section>
-    <div class="container">
-      <div class="row">
+    <figure>
+      <img src="Image/gdpr.jpg" alt="Compliance Assistance" class="img-fluid" />
+      <figcaption>Illustratie van Compliance Assistance bij een organisatie.</figcaption>
+    </figure>
+    <div class="container" class="row" >
+      
         <main class="col-md-9 pe-3">
           <section id="map" class="row">
             <!-- Leaflet map -->
             <div id="apMap" class="col-12 mb-3"></div>
+          </div>
           </section>
-          
+    <footer class="container-fluid text-center h6 small p-4">
+      &copy;2024 langlopende taak
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
